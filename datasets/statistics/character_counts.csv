@@ -1,0 +1,13 @@
+dataset,subset,field,characters,non_null_rows,null_rows
+translator_data_wikipedia,all_splits,sentence_de,40539899,327445,0
+translator_data_wikipedia,all_splits,sentence_ch,37646890,327445,0
+translator_data_wikipedia,all_splits,written_out_num_sentence_ch,40643668,325376,2069
+german_numbers_labeled,gemini_3.5_flash_lite_gen_labeled,full_de_text,1281554,19763,0
+german_numbers_labeled,gemini_3.5_flash_lite_gen_labeled,replaced_de_text,1159657,19763,0
+german_numbers_labeled,gemini_3.5_flash_lite_gen_labeled,sg_de_text,1796310,19763,0
+german_numbers_labeled,german_common_numbers_labeled,full_de_text,37684925,274988,0
+german_numbers_labeled,german_common_numbers_labeled,replaced_de_text,37244660,274988,0
+german_numbers_labeled,german_common_numbers_labeled,sg_de_text,42691521,274988,0
+german_numbers_labeled,combined,full_de_text,38966479,294751,0
+german_numbers_labeled,combined,replaced_de_text,38404317,294751,0
+german_numbers_labeled,combined,sg_de_text,44487831,294751,0

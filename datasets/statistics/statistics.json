@@ -1,0 +1,251 @@
+{
+  "counting_method": "Unicode code points, including whitespace and punctuation; null text excluded; no JSON, labels or other metadata included",
+  "revisions": {
+    "i4ds/translator_data_wikipedia": "78db6ed3cfd7f83553f249758b329e0df02e32d4",
+    "i4ds/german_numbers_labeled": "931f8a01d677f06032386e2dc762aa79d6d700bf"
+  },
+  "wikipedia": {
+    "rows": 327445,
+    "splits": {
+      "swiss_german": {
+        "rows": 86272,
+        "sentence_de": {
+          "characters": 10176943,
+          "non_null_rows": 86272,
+          "null_rows": 0
+        },
+        "sentence_ch": {
+          "characters": 9471740,
+          "non_null_rows": 86272,
+          "null_rows": 0
+        },
+        "written_out_num_sentence_ch": {
+          "characters": 10220469,
+          "non_null_rows": 85740,
+          "null_rows": 532
+        }
+      },
+      "test": {
+        "rows": 12548,
+        "sentence_de": {
+          "characters": 1535390,
+          "non_null_rows": 12548,
+          "null_rows": 0
+        },
+        "sentence_ch": {
+          "characters": 1428153,
+          "non_null_rows": 12548,
+          "null_rows": 0
+        },
+        "written_out_num_sentence_ch": {
+          "characters": 1530791,
+          "non_null_rows": 12471,
+          "null_rows": 77
+        }
+      },
+      "train": {
+        "rows": 215889,
+        "sentence_de": {
+          "characters": 27239380,
+          "non_null_rows": 215889,
+          "null_rows": 0
+        },
+        "sentence_ch": {
+          "characters": 25273024,
+          "non_null_rows": 215889,
+          "null_rows": 0
+        },
+        "written_out_num_sentence_ch": {
+          "characters": 27321636,
+          "non_null_rows": 214523,
+          "null_rows": 1366
+        }
+      },
+      "validation": {
+        "rows": 12736,
+        "sentence_de": {
+          "characters": 1588186,
+          "non_null_rows": 12736,
+          "null_rows": 0
+        },
+        "sentence_ch": {
+          "characters": 1473973,
+          "non_null_rows": 12736,
+          "null_rows": 0
+        },
+        "written_out_num_sentence_ch": {
+          "characters": 1570772,
+          "non_null_rows": 12642,
+          "null_rows": 94
+        }
+      }
+    },
+    "dialect_column": "dialect_fine (original regional labels, before converter fallback)",
+    "dialects": [
+      {
+        "dialect": "Basel",
+        "sentence_pairs": 113936,
+        "percentage": 34.79546183328498,
+        "swiss_german_characters": 13998277,
+        "german_characters": 15105638,
+        "written_number_characters": 14973958,
+        "written_number_null_rows": 742
+      },
+      {
+        "dialect": "Swiss German",
+        "sentence_pairs": 86272,
+        "percentage": 26.347020110247524,
+        "swiss_german_characters": 9471740,
+        "german_characters": 10176943,
+        "written_number_characters": 10220469,
+        "written_number_null_rows": 532
+      },
+      {
+        "dialect": "Zürich",
+        "sentence_pairs": 61384,
+        "percentage": 18.746354349585427,
+        "swiss_german_characters": 7034953,
+        "german_characters": 7555966,
+        "written_number_characters": 7551478,
+        "written_number_null_rows": 366
+      },
+      {
+        "dialect": "Bern",
+        "sentence_pairs": 33917,
+        "percentage": 10.358075401975904,
+        "swiss_german_characters": 3679748,
+        "german_characters": 3970162,
+        "written_number_characters": 4102037,
+        "written_number_null_rows": 223
+      },
+      {
+        "dialect": "St. Gallen",
+        "sentence_pairs": 14337,
+        "percentage": 4.378445235077646,
+        "swiss_german_characters": 1561716,
+        "german_characters": 1698760,
+        "written_number_characters": 1687722,
+        "written_number_null_rows": 96
+      },
+      {
+        "dialect": "Luzern",
+        "sentence_pairs": 6956,
+        "percentage": 2.124326222724427,
+        "swiss_german_characters": 710114,
+        "german_characters": 757744,
+        "written_number_characters": 801374,
+        "written_number_null_rows": 49
+      },
+      {
+        "dialect": "Graubünden",
+        "sentence_pairs": 6114,
+        "percentage": 1.8671838018598543,
+        "swiss_german_characters": 708065,
+        "german_characters": 765301,
+        "written_number_characters": 758269,
+        "written_number_null_rows": 44
+      },
+      {
+        "dialect": "Wallis",
+        "sentence_pairs": 4529,
+        "percentage": 1.3831330452442394,
+        "swiss_german_characters": 482277,
+        "german_characters": 509385,
+        "written_number_characters": 548361,
+        "written_number_null_rows": 17
+      }
+    ],
+    "legacy_dialect_codes": {
+      "ch": 281281,
+      "ag": 1232,
+      "be": 5328,
+      "zh": 12453,
+      "sg": 1943,
+      "bs": 23477,
+      "lu": 300,
+      "vs": 1414,
+      "gr": 17
+    },
+    "characters": {
+      "sentence_de": {
+        "characters": 40539899,
+        "non_null_rows": 327445,
+        "null_rows": 0
+      },
+      "sentence_ch": {
+        "characters": 37646890,
+        "non_null_rows": 327445,
+        "null_rows": 0
+      },
+      "written_out_num_sentence_ch": {
+        "characters": 40643668,
+        "non_null_rows": 325376,
+        "null_rows": 2069
+      }
+    }
+  },
+  "german_numbers_labeled": {
+    "configurations": {
+      "gemini_3.5_flash_lite_gen_labeled": {
+        "rows": 19763,
+        "characters": {
+          "full_de_text": {
+            "characters": 1281554,
+            "non_null_rows": 19763,
+            "null_rows": 0
+          },
+          "replaced_de_text": {
+            "characters": 1159657,
+            "non_null_rows": 19763,
+            "null_rows": 0
+          },
+          "sg_de_text": {
+            "characters": 1796310,
+            "non_null_rows": 19763,
+            "null_rows": 0
+          }
+        }
+      },
+      "german_common_numbers_labeled": {
+        "rows": 274988,
+        "characters": {
+          "full_de_text": {
+            "characters": 37684925,
+            "non_null_rows": 274988,
+            "null_rows": 0
+          },
+          "replaced_de_text": {
+            "characters": 37244660,
+            "non_null_rows": 274988,
+            "null_rows": 0
+          },
+          "sg_de_text": {
+            "characters": 42691521,
+            "non_null_rows": 274988,
+            "null_rows": 0
+          }
+        }
+      }
+    },
+    "combined": {
+      "rows": 294751,
+      "characters": {
+        "full_de_text": {
+          "characters": 38966479,
+          "non_null_rows": 294751,
+          "null_rows": 0
+        },
+        "replaced_de_text": {
+          "characters": 38404317,
+          "non_null_rows": 294751,
+          "null_rows": 0
+        },
+        "sg_de_text": {
+          "characters": 44487831,
+          "non_null_rows": 294751,
+          "null_rows": 0
+        }
+      }
+    }
+  }
+}

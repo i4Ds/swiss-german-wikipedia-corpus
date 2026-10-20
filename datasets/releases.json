@@ -1,0 +1,39 @@
+{
+  "wikipedia": {
+    "repo_id": "i4ds/translator_data_wikipedia",
+    "revision": "d0491d0112403763d272b193a7c74534bfcec5f4",
+    "files": [
+      {
+        "path": "data/swiss_german-00000-of-00001.parquet",
+        "sha256": "fd7eb3eede7f3a2c9c551182048a0061a953a580d71f9c6885751c0f140e51a0",
+        "bytes": 15382603
+      },
+      {
+        "path": "data/test-00000-of-00001.parquet",
+        "sha256": "c82a5d712ee4674e149de08d4f130a089f3f59fcec55bc27f8a5cd521115764a",
+        "bytes": 2481169
+      },
+      {
+        "path": "data/train-00000-of-00001.parquet",
+        "sha256": "91017bcdebb110c07fd0c6231cd50b4c89ce5417e484c2a2343b86f490200764",
+        "bytes": 41208191
+      },
+      {
+        "path": "data/validation-00000-of-00001.parquet",
+        "sha256": "4b07093267321ffc5ca4a9815638c5e3be1ef63e04807ecc59f30887d44634c7",
+        "bytes": 2546958
+      }
+    ]
+  },
+  "source-corpus": {
+    "repo_id": "i4ds/alemannic-wikipedia-clean-translation-corpus",
+    "revision": "107780353f33f3dc10405216de0b8dbcbe347822",
+    "files": [
+      {
+        "path": "data/train-00000-of-00001.parquet",
+        "sha256": "1c484d631c671b801d28c1f507e342e30ce35120d18e333250f665957388c6e5",
+        "bytes": 53155338
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "source_repository": "https://github.com/i4Ds/translator_data_collection_and_prep",
+  "source_commit": "a97f6aa7eda976ca8cb64a62de6cdac2b9b37af1",
+  "includes_current_working_tree_changes": true,
+  "files": [
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/PROMPT.py",
+      "destination_path": "OpenRouter_wikipedia_translate/PROMPT.py",
+      "sha256": "fd29649088e154d8efffb90a4b062ff850791ad3b44f988c753c6e0f13683ca5"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/analyze_dialect_eval.py",
+      "destination_path": "OpenRouter_wikipedia_translate/analyze_dialect_eval.py",
+      "sha256": "7a74917c6d9f42edaa6cf9d2fd1482e8ecf6756ef0b2a6fea2b15529e576670e"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/build_gemini_eval_set.py",
+      "destination_path": "OpenRouter_wikipedia_translate/build_gemini_eval_set.py",
+      "sha256": "e63c3bd7f8d1e75bf752b6fdb734cc64bda6941d50357d5b2fc3d4f38818efab"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/hf_staging/PROMPT.py",
+      "destination_path": "OpenRouter_wikipedia_translate/hf_staging/PROMPT.py",
+      "sha256": "fd29649088e154d8efffb90a4b062ff850791ad3b44f988c753c6e0f13683ca5"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/hf_staging/README.md",
+      "destination_path": "OpenRouter_wikipedia_translate/hf_staging/README.md",
+      "sha256": "f592901152fc1def401ed2d4d4c63308ada3601262b85b32371f5e01de0dad34"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/run_eval_300.sh",
+      "destination_path": "OpenRouter_wikipedia_translate/run_eval_300.sh",
+      "sha256": "831060983b51228f95fba9bb8a97f4b9a10fbf791c48944813ae91d6ebb7964d"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/run_openrouter_wikipedia_translate.py",
+      "destination_path": "OpenRouter_wikipedia_translate/run_openrouter_wikipedia_translate.py",
+      "sha256": "607b1bc4fdbc7fd7e8f462f46eab3fd40d8f0a573d8259e15e1e4e55ff981831"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/sbatch_translate.sh",
+      "destination_path": "OpenRouter_wikipedia_translate/sbatch_translate.sh",
+      "sha256": "8b4d3474c10c09de7f2b0b7b1a4d494c040e71f796c665b851e3f01999f54d51"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/scripts/flatten_segments_jsonl.py",
+      "destination_path": "OpenRouter_wikipedia_translate/scripts/flatten_segments_jsonl.py",
+      "sha256": "09e9266db8278d33e89bdd5920d1119e32790226fd62b2cf16d03e4c9ed97e37"
+    },
+    {
+      "source_path": "wikipedia_articles/OpenRouter_wikipedia_translate/scripts/push_translation_corpus_to_hf.py",
+      "destination_path": "OpenRouter_wikipedia_translate/scripts/push_translation_corpus_to_hf.py",
+      "sha256": "ef4fe11738e7f3ce2cefb08ee057ea61b8dd4fb9094b894f0765366b9359266f"
+    },
+    {
+      "source_path": "wikipedia_articles/README.md",
+      "destination_path": "README.md",
+      "sha256": "d587a21cc048802eab60522b654e6692f23a6723c58e4e5c16263eb30fb90a67"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/README.md",
+      "destination_path": "author_dialect/README.md",
+      "sha256": "e00affe9d5159ddea831b050beee1afb2b9ddec5b3e38b8371c88bd6e89ead67"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/apply_author_dialect.py",
+      "destination_path": "author_dialect/apply_author_dialect.py",
+      "sha256": "cc64261ec624ac59f908a21b072971089d63a1835cfe88351eb4713bef06754a"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/export_clean_translation_corpus.py",
+      "destination_path": "author_dialect/export_clean_translation_corpus.py",
+      "sha256": "283df2097344b363689fdddd83e549c767c192005939657c7f90a14c17617e7d"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/join_text_with_dialect.py",
+      "destination_path": "author_dialect/join_text_with_dialect.py",
+      "sha256": "460c3087f3635db459ea9fe59de78e134f61544b7e732d6155428a68ad7933d0"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/parse_creators_from_dump.py",
+      "destination_path": "author_dialect/parse_creators_from_dump.py",
+      "sha256": "e3efb9280e5ae30ebd6c303d25cf165bfc2d3a6e2e299cbeda76a877d66cbf22"
+    },
+    {
+      "source_path": "wikipedia_articles/author_dialect/scrape_author_dialect.py",
+      "destination_path": "author_dialect/scrape_author_dialect.py",
+      "sha256": "5b6a6fb3ad32a8ad877c7ef72ddb41d50eaddead5397e14117ac619460c6884e"
+    },
+    {
+      "source_path": "wikipedia_articles/extract_als_articles.py",
+      "destination_path": "extract_als_articles.py",
+      "sha256": "78e865fce57469ce7a99cf434a7cea7c0a6d7c2e78667b0c2c6f61706fe354d8"
+    },
+    {
+      "source_path": "wikipedia_articles/fetch_dialect_categories.py",
+      "destination_path": "fetch_dialect_categories.py",
+      "sha256": "5a6e43bad6ad1ed6c4ec3baa7aff1b02768517d6d40dceffc27d162d6142c624"
+    },
+    {
+      "source_path": "wikipedia_articles/run_pipeline.sh",
+      "destination_path": "run_pipeline.sh",
+      "sha256": "7922f47e5cd18d5b4ecf486978814e4df29f790fc94176e9e09f639f39e873ab"
+    }
+  ]
+}

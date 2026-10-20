@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "python": "3.14.3",
+  "offline_tests_passed": 3,
+  "validation_packages": {
+    "pandas": "3.0.2",
+    "openpyxl": "3.1.5",
+    "pyarrow": "23.0.1",
+    "datasets": "4.8.4",
+    "huggingface_hub": "1.9.0",
+    "python-dotenv": "1.2.2",
+    "pyyaml": "6.0.3",
+    "openai": "2.30.0",
+    "httpx": "0.28.1"
+  },
+  "python_package_wheel_built": true,
+  "python_and_shell_syntax_checked": true,
+  "local_document_links_checked": true,
+  "original_extraction_inputs_unchanged": true,
+  "gpu_or_paid_api_inference_executed": false,
+  "wiki_parser_paths_tested": [
+    "regex fallback",
+    "mwparserfromhell"
+  ]
+}

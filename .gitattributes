@@ -1,0 +1,9 @@
+* text=auto
+*.csv text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# Preserve literal whitespace in inherited prompts and archived source documentation.
+OpenRouter_wikipedia_translate/PROMPT.py whitespace=-blank-at-eol
+OpenRouter_wikipedia_translate/hf_staging/PROMPT.py whitespace=-blank-at-eol
+datasets/source-corpus.md whitespace=-blank-at-eol
